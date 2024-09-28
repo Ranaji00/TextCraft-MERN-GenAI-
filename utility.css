@@ -1,0 +1,39 @@
+/* center */
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex */
+
+.flex
+{
+    display: flex;
+}
+
+/* border red , green , blue */
+
+.b-r
+{
+    border: 2px solid red;
+}
+.b-b
+{
+    border: 2px solid blue;
+}
+.b-g
+{
+    border: 2px solid green;
+}
+
+.pt
+{
+    cursor: pointer;
+}
+
+.ar
+{
+    cursor: default;
+}

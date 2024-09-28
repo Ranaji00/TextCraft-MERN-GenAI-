@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Gowun+Batang:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg */
+.navbar {
+
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    min-height: 70px;
+    font-family: Fredoka, sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    /* flexed */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* nav bar all content */
+
+.nav-cont {
+    list-style-type: none;
+    gap: 17px;
+    margin-right: 2em;
+}
+
+/* nav bar list  */
+.nav-cont>li {
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-btn {
+    padding: 8px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 11px;
+    height: 38px;
+    width: 135px;
+    font-size: medium;
+    font-weight: 600;
+}
+.nav-img
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: larger;
+    
+}
+.nav-img>img
+{
+    width: 120px;
+    
+
+}
+
+.invert{
+filter:invert();
+}
+
+
+/* Phase 2 */
+
+
+.vid-01 {
+    width: 98vw;
+    height: 100vh;
+}
+
+video {
+    width: 98vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.sec-01 {
+
+    position: relative;
+    padding: 0px 4px;
+    justify-content: center;
+
+}
+
+.text-01 {
+
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 18px;
+    font-family: Gowun Batang, serif;
+    text-align: center;
+
+
+}
+
+.l1 {
+    font-size: 70px;
+    color: rgb(237, 238, 239);
+    font-weight: 700;
+
+}
+
+.l2 {
+    font-size: x-large;
+    color: rgb(237, 238, 239);
+    font-weight: 300;
+}
+
+.l3 button:nth-child(2) {
+    padding: 8px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 11px;
+    height: 38px;
+    width: 135px;
+    font-weight: 500;
+}
+
+.l3 button:nth-child(1) {
+    padding: 8px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 11px;
+    height: 38px;
+    width: 135px;
+    font-weight: 500;
+
+}
+
+/* next line */
+
+.sec-02 {
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-02 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 18px;
+    font-family: Gowun Batang, serif;
+    text-align: center;
+}
+
+.text-02 .l1 {
+
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+
+}
+
+.text-02 .l2 {
+
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+
+}
+
+.text-02 .l3 button:first-child {
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 22px;
+    height: 39px;
+    width: 93px;
+    font-weight: 500;
+
+}
+/*   */
+.scrolled {
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+}
+
+.wh {
+    color: white;
+}
